@@ -1,11 +1,6 @@
-print('Digite um numero')
-numero1 = int(input())
-
-print('digite um operador')
-operador = input()
-
-print('Digite um segundo numero')
-numero2 = int(input())
+numero1 = int(input('Digite um numero'))
+operador = input('digite um operador')
+numero2 = int(input('Digite um segundo numero'))
 
 if operador == '+':
     resultado = numero1 + numero2
